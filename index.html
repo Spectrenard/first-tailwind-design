@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body class="mt-24 bg-orange-50 m-auto">
+    <div
+      class="max-w-2xl m-auto flex max-md:flex-col justify-center items-center"
+    >
+      <img
+        class="w-3/6 h-full object-cover rounded-l-2xl max-md:h-60 max-md:rounded-tl-2xl max-md:rounded-tr-2xl max-md:rounded-bl-none"
+        src="./images/image-product-desktop.jpg"
+        alt=""
+      />
+
+      <div
+        class="bg-white rounded-r-2xl p-10 w-3/6 h-full max-md:rounded-t-none max-md:rounded-b-2xl max-md:p-5 max-md:w-3/4"
+      >
+        <h1 class="text-gray-400 uppercase tracking-widest pb-6">Perfume</h1>
+        <h2 class="text-black text-4xl font-bold mb-6">
+          Gabrielle Essence Eau De Parfum
+        </h2>
+        <p class="text-gray-500 mb-8">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="flex items-center">
+          <h3 class="text-green-700 text-4xl font-semibold">$149.99</h3>
+          <span class="ml-4 text-gray-500 text-sm line-through"> $169.99</span>
+        </div>
+        <div
+          class="bg-green-700 mt-6 cursor-pointer rounded-md p-3 flex items-center justify-center hover:bg-green-900 transition ease-in-out"
+        >
+          <img src="./images/icon-cart.svg" alt="" />
+          <p class="text-white pl-3">Add to Cart</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
